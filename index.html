@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ritech Company</title>
+</head>
+
+<body>
+    <div class="header">
+            <div class="nav">
+                        <div class="logo"><a href="#home">R I T E C H</a></div>
+                        <div class="menu">
+                    <ul>
+                        <li><a href="#home" id="home" class="active">Home</a></li>
+                        <li><a href="#about-us-page">About us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                     </ul>
+                    </div>
+            </div>
+
+            <section class="container" >
+                    <div class="title-first">
+                        Ri<span>Tech</span>&nbsp Consulting Agency
+                    </div>
+                        <p>Ritech Software is a client focused custom software
+                        development company. Whether you need custom web development or an appealing website design,
+                        Ritech has the required expertise and experience to do it all.</p>
+                    <a href="/" class="btn">View our work</a>
+            </section>
+    </div>
+             <div class="scroll-up-btn">
+                    <a href="#home"><i class="fa-solid fa-angles-up"></i></a>
+             </div>
+
+    <div id="about-us-page">
+                 <div class="heading">
+                    <h1>About Us<br></h1>
+                    <h3>Our mission is to offer high-quality IT services that evolve with corresponding business trends and technology</h3>
+                </div>
+        <div class="intro">
+                    <h1>Introduction</h1>
+                    <h3>We're realistic to deliver consistently</h3>
+                    <p>Ritech Software is a premier solution provider, focusing its strength with right mix in Web Based Enterprise Solutions, Custom Application Development,
+                        Web Development, CMS, E-commerce Solutions, and much more to gratify with the needs of both small and large businesses. </p>
+            <div class="numbers-bottom">
+                <div class="first">10 <br>Years of experience</div>
+                <div class="second">20+<br>Countries Served </div>
+                <div class="third">80<br>Team members</div>
+                <div class="fourth">95%<br>Client Satisfaction </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="services">
+                <div class="service-title">
+                    <h3>Services</h3>
+                    <p>Explore how we can help you build better tech solutions for current challenges with our end to end services</p>
+                </div>
+                 <div class="services-tab">
+                    <div class="box">
+                            <div class="icon"><i class="fa-solid fa-user"></i></div>
+                                <div class="content-on">
+                                <p>As an offshore software development company,Ritech values each project irrespective of the budget.We're exhibited finese in deploying custom IT solution </p>
+                            </div>
+                             <a href="#services" >See our work here </a>
+                     </div>
+            <div class="box">
+                        <div class="icon"><i class="fa-brands fa-php"></i></div>
+                        <div class="content-on">
+                            <p>We have exhibited finesse in deploying custom IT solutions using PHP worldwide, including but not limited to the clients based in the UK, USA,India etc. </p>
+                        </div>
+                         <a href="#services">See our work here </a>
+            </div>
+            <div class="box">
+                        <div class="icon"><i class="fa-brands fa-python"></i></div>
+                        <div class="content-on">
+                            <p>We allocate a team of business analysis, UX & UI designer, programmers and testers to make sure that your software is delivered on time.
+                            </p>    
+                        </div>
+                         <a href="#services">See our work here </a>
+            </div>
+        </div>
+            </section>
+           
+            <section class="footer-contact">
+                <div id="contact">
+                    <form onsubmit="event.preventDefault(); validateForm()">
+                            <h1>Contact Us</h1>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" placeholder="Your name">
+                            <small class="error"></small>
+
+                            <label for="email">Email:</label>
+                            <input type="text" id="email" placeholder="Your email">
+                            <small class="error"></small>
+
+                            <label for="message">Message:</label>
+                            <textarea id="message" placeholder="Your message" rows="6"></textarea>
+                            <small class="error"></small>
+
+                            <div class="center">
+                                <input type="submit" value="Send Message">
+                                <p id="success"></p>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
